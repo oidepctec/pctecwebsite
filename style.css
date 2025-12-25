@@ -114,20 +114,27 @@ body {
 
 .header {
   width: 100vw;
-  height: 100vh;
+  height: 100svh; /* ← 100vhより安全（スマホ対応） */
   background-color: #5cc;
   color: white;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center; /* 縦中央 */
+  align-items: center;     /* 横中央 */
+
   padding: 0;
   text-align: center;
+	position: relative;
 }
 
+
 .pcteclogomkns{
-	width: 480px;
-	margin: 350px;
+  width: min(480px, 80vw); /* PCでもスマホでも安全 */
+  height: auto;
+  margin: 0;
 }
+
 
 .header h1 {
   font-family: "Makinas-4-Square";
@@ -159,12 +166,13 @@ body {
 
 /* SCROLLグループをラップするdivを作って下寄せ */
 .scroll-area {
-  margin-top: auto;  /* 下側に押し出す */
-  margin-bottom: 30px; /* 画面下からの余白（調整可） */
+  position: absolute;
+  bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 
 
 p,h1,h2,h3,h4,h5,h6 {
