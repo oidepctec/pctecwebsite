@@ -9,11 +9,8 @@ html * {
 	box-sizing: border-box;
 }
 
-/*フォントファイル（otf）埋め込み侍*/
-@font-face {
-  font-family: 'Makinas-4-Square';/*フォント名日本語OK*/
-  src: url(Makinas-4-Square.otf);/*フォントファイルパス*/
-}
+
+
 
 /*Google Fonts使っちゃおっかなぁぁぁぁ*/
 .biz-udpgothic-regular {
