@@ -142,6 +142,9 @@ body {
   font-style: italic;
 }
 
+.scrollimg{
+	width: 100px;
+}
 
 .scroll_shiro,
 .shitayajirushi {
