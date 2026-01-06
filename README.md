@@ -9,4 +9,13 @@ I'd never done web design before, but somehow I pulled it off just on momentum a
 
 You are welcome to use the source code as a reference for writing your own code. However, please refrain from downloading the photos depicting the activities of our members, as they contain personal copyrighted material and personal information such as faces.
 
+
+## 部員へ
+Issues読んでね
+
+https://github.com/oidepctec/pctecwebsite/issues
+
+
+
+
 Copyright© 2025 OIDE PCTEC & @Koutarou4096. All rights reserved.
