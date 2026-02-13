@@ -326,3 +326,23 @@ footer{
 	margin:	0 auto 0 auto;		/* 余白（変えなくてよい） */
 	max-width: 1300px;		/* 最大表示幅（変えなくてよい） */
 }
+
+
+@media (max-width: 600px) {
+  
+  h2 {
+	  font-size: 18px
+  }
+
+  /* 本文の文字も少し詰める */
+  p {
+    font-size: 16px;            /* 文字サイズ小さめ */
+    line-height: 1.4;           /* 行間を狭める */
+    letter-spacing: 0;          /* 文字間は標準に */
+  }
+
+  /* 画像（横並び → 縦並び） */
+  .flex-box {
+    flex-direction: column;     /* 縦並び */
+    gap: 8px;                   /* 余白を小さく */
+  }
