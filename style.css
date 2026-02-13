@@ -171,18 +171,15 @@ body {
 /* ヘッダー「パソコン技術部」の部分（電気電子工学科のWebサイトをパクったとこ） */
 .header {
   width: 100vw;
-  height: 100svh; /* ← 100vhより安全（AI曰く） */
-  
+  height: 100svh; /* ← 100vhより安全（AI曰く） */  
   color: white;
-
   display: flex;
   flex-direction: column;
   justify-content: center; /* 縦中央 */
   align-items: center;     /* 横中央 */
-
   padding: 0;
   text-align: center;
-	position: relative;
+  position: relative;
 }
 
 /* ヘッダー内の画像「パソコン技術部」の部分（フォントはマキナス4Square） */
@@ -192,35 +189,10 @@ body {
   margin: 0;
 }
 
-/* ↓これはもう関係ない */
-.header h1 {
-  font-family: "Makinas-4-Square";
-  font-weight: bold;
-  font-style: italic;
-  font-size: 50px;
-  margin-top: auto; /* 上に寄せる */
-  color: white;
-  padding-top: 50px;
-}
-
-.scroll_shiro{
-  font-style: italic;
-}
 
 .scrollimg{
 	width: 100px;
 }
-
-.scroll_shiro,
-.shitayajirushi {
-  font-family: "Makinas-4-Square";
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  letter-spacing: 2px;
-}
-
 
 .scroll-area {
   position: absolute;
@@ -250,7 +222,7 @@ p,h1,h2,h3,h4,h5,h6 {
   
 p {
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Zen Kaku Gothic New";
   font-style: normal;
   
@@ -262,7 +234,7 @@ li {
 
 h6{
     font-family: "Zen Kaku Gothic New";
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: 2px;
     border-left: #fff solid 5px;
@@ -272,7 +244,7 @@ h6{
 
 h2{
     font-family: "Zen Kaku Gothic New";
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: 2px;
     border-left: #fff solid 5px;
