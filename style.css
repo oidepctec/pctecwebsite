@@ -13,22 +13,86 @@ html * {
 
 
 /*Google Fontsのフォント指定（BIZ UDPGothic, Zen Kaku Gothic New, Zen Old Mincho）*/
-.biz-udpgothic-regular {
-  font-family: "BIZ UDPGothic", sans-serif;
-  font-weight: 400;
+.zen-kaku-gothic-new-light {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
+
 .zen-kaku-gothic-new-regular {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.zen-kaku-gothic-new-medium {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zen-kaku-gothic-new-bold {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zen-kaku-gothic-new-black {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.biz-udpgothic-regular {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.biz-udpgothic-bold {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.noto-sans-jp-<uniquifier> {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .zen-old-mincho-regular {
   font-family: "Zen Old Mincho", serif;
   font-weight: 400;
   font-style: normal;
 }
 
+.zen-old-mincho-medium {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zen-old-mincho-semibold {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.zen-old-mincho-bold {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zen-old-mincho-black {
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+/* ここまでがフォントの呼び出しコード */
 
 
 /*ここからが本番*/
