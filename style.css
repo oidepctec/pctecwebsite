@@ -9,7 +9,7 @@ html * {
 	box-sizing: border-box;
 }
 
-
+/* ※注：このCSSはトップページ用です。班別のページ用ではありません。 */
 
 
 /*Google Fontsのフォント指定（BIZ UDPGothic, Zen Kaku Gothic New, Zen Old Mincho）*/
