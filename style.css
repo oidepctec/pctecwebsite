@@ -12,7 +12,7 @@ html * {
 
 
 
-/*Google Fonts使っちゃおっかなぁぁぁぁ*/
+/*Google Fontsのフォント指定（BIZ UDPGothic, Zen Kaku Gothic New, Zen Old Mincho）*/
 .biz-udpgothic-regular {
   font-family: "BIZ UDPGothic", sans-serif;
   font-weight: 400;
@@ -28,30 +28,20 @@ html * {
   font-weight: 400;
   font-style: normal;
 }
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-/*Dancing Scriptのみ常にエラー起きるけど気にしなくていいです*/
-.dancing-script-<uniquifier> {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 
-/*ここから先が本番*/
+
+/*ここからが本番*/
 
 body {
   font-family: sans-serif;  
   
 	margin:  0 0 0 0;
-	color: #000;
+	color: #fff;
   background-color: #105ec5;
 }
 
+/* ページ左上の「☰」の設定 */
 .menu_button {
   position: fixed;
   top: 16px;
@@ -67,6 +57,7 @@ body {
   border-radius: 4px;
 }
 
+/* ☰をクリックして展開するメニューの表示項目的な（？） */
 .side_menu{
   position: fixed;
   top: 0;
@@ -80,6 +71,7 @@ body {
   padding: 60px 16px 16px;
 }
 
+/* この辺はいじる必要ないんじゃない？ */
 .side_menu ul {
   list-style: none;
   padding-left: 20px;
@@ -109,9 +101,10 @@ body {
   left: 0;
 }
 
+/* ヘッダー「パソコン技術部」の部分（電気電子工学科のWebサイトをパクったとこ） */
 .header {
   width: 100vw;
-  height: 100svh; /* ← 100vhより安全（スマホ対応） */
+  height: 100svh; /* ← 100vhより安全（AI曰く） */
   background: linear-gradient(10deg, #1055c6,#109fc3);
   color: white;
 
@@ -125,14 +118,14 @@ body {
 	position: relative;
 }
 
-
+/* ヘッダー内の画像「パソコン技術部」の部分（フォントはマキナス4Square） */
 .pcteclogomkns{
-  width: min(480px, 80vw); /* PCでもスマホでも安全 */
+  width: min(480px, 80vw); 
   height: auto;
   margin: 0;
 }
 
-
+/* ↓これはもう関係ない */
 .header h1 {
   font-family: "Makinas-4-Square";
   font-weight: bold;
@@ -161,7 +154,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* SCROLLグループをラップするdivを作って下寄せ */
+
 .scroll-area {
   position: absolute;
   bottom: 30px;
@@ -193,7 +186,7 @@ h6{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    border-left: #333 solid 5px;
+    border-left: #fff solid 5px;
     padding-left: 5px;
 }
 
@@ -203,7 +196,7 @@ h2{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    border-left: #333 solid 5px;
+    border-left: #fff solid 5px;
     padding-left: 5px;
 }
 
