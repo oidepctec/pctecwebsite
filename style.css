@@ -112,7 +112,7 @@ body {
 .header {
   width: 100vw;
   height: 100svh; /* ← 100vhより安全（スマホ対応） */
-  background-color: #5cc;
+  background: linear-gradient(290deg, #1055c6,#109fc3);
   color: white;
 
   display: flex;
