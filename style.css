@@ -163,7 +163,19 @@ body {
   align-items: center;
 }
 
-
+/* ハイパーリンク */
+a {
+	font-family: "Zen Kaku Gothic New";
+	color: #00ffff;
+}
+/* マウスでホバーしてるとき */
+a:hover {
+	color: #00ff66;
+}
+/* リンク踏んだ後 */
+a:visited {
+	color #00ff00;
+}
 
 p,h1,h2,h3,h4,h5,h6 {
 	margin-top: 10;
