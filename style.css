@@ -56,6 +56,9 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
+.menu_button:hover{
+	background-color: #999;
+}
 
 /* ☰をクリックして展開するメニューの表示項目的な（？） */
 .side_menu{
