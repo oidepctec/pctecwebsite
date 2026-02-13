@@ -285,5 +285,5 @@ footer{
 }
 .wrapper {
 	margin:	0 auto 0 auto;		/* 余白（変えなくてよい） */
-	max-width: 960px;		/* 最大表示幅（変えなくてよい） */
+	max-width: 1300px;		/* 最大表示幅（変えなくてよい） */
 }
