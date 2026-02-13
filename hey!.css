@@ -38,7 +38,7 @@ body {
   
 	margin:  0 0 0 0;
 	color: #fff;
-  background-color: #105ec5;
+  background: linear-gradient(33deg, #1055c6, #109fc3);
 }
 
 .menu_button {
@@ -101,7 +101,7 @@ body {
 .header {
   width: auto;
   height: 200px;
-  background: linear-gradient(10deg, #1055c6,#109fc3);
+ 
   color: white;
   padding: 40px 0; /* 少し大きめに */
 }
@@ -294,6 +294,7 @@ footer{
   }
 
 }
+
 
 
 
