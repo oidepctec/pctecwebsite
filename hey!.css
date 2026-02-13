@@ -9,11 +9,9 @@ html * {
 	box-sizing: border-box;
 }
 
-/*フォントファイル（otf）埋め込み侍*/
-@font-face {
-  font-family: 'Makinas-4-Square';/*フォント名日本語OK*/
-  src: url(Makinas-4-Square.otf);/*フォントファイルパス*/
-}
+
+/* ※注：このCSSは、班別のページ(～～squad.html)用です。トップページ(index.html)用は、"style.css"です。間違えないように気を付けてください。 */
+
 
 /*Google Fonts使っちゃおっかなぁぁぁぁ*/
 .biz-udpgothic-regular {
@@ -31,18 +29,6 @@ html * {
   font-weight: 400;
   font-style: normal;
 }
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-/*Dancing Scriptのみ常にエラー起きるけど気にしなくていいです*/
-.dancing-script-<uniquifier> {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
 
 /*ここから先が本番*/
@@ -52,7 +38,7 @@ body {
   
 	margin:  0 0 0 0;
 	color: #000;
-  background-color: #fff;
+  background-color: #105ec5;
 }
 
 .menu_button {
@@ -115,7 +101,7 @@ body {
 .header {
   width: auto;
   height: 200px;
-  background-color: #333;
+  background: linear-gradient(10deg, #1055c6,#109fc3);
   color: white;
   padding: 40px 0; /* 少し大きめに */
 }
@@ -308,6 +294,7 @@ footer{
   }
 
 }
+
 
 
 
