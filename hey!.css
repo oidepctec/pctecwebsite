@@ -152,7 +152,7 @@ body {
   color: white;
   text-decoration: none;
   font-family: "Zen Kaku Gothic New Medium";
-  font-size: 18px;
+  font-size: 20px;
   transition: background-color 0.3s ease, color 0.3s ease; /* ホバーした時のアニメーション！アニメーションって...ンフーンフフフフフ */
 }
 
@@ -160,7 +160,7 @@ body {
   color: #000;
   background-color: #fff;
   font-family: "Zen Kaku Gothic New Black";
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .side_menu.open {
@@ -192,7 +192,7 @@ p,h1,h2,h3,h4,h5,h6 {
   
 p {
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Zen Kaku Gothic New";
   font-style: normal;
   
@@ -254,7 +254,7 @@ p {
 
 h6{
     font-family: "Zen Kaku Gothic New";
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
     letter-spacing: 2px;
     border-left: #fff solid 5px;
@@ -264,7 +264,7 @@ h6{
 
 h2{
     font-family: "Zen Kaku Gothic New";
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
     letter-spacing: 2px;
     border-left: #fff solid 5px;
@@ -292,9 +292,10 @@ h1{
 }
 
 footer{
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Zen Kaku Gothic New";
 }
+
 
 .container {
   max-width: 1200px;
@@ -347,6 +348,7 @@ footer{
   }
 
 }
+
 
 
 
