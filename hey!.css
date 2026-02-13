@@ -37,7 +37,7 @@ body {
   font-family: sans-serif;  
   
 	margin:  0 0 0 0;
-	color: #000;
+	color: #333;
   background-color: #105ec5;
 }
 
@@ -204,7 +204,7 @@ h6{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    border-left: #333 solid 5px;
+    border-left: #fff solid 5px;
     padding-left: 5px;
 }
 
@@ -214,7 +214,7 @@ h2{
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    border-left: #333 solid 5px;
+    border-left: #fff solid 5px;
     padding-left: 5px;
 }
 
@@ -294,6 +294,7 @@ footer{
   }
 
 }
+
 
 
 
