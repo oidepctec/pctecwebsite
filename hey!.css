@@ -13,7 +13,7 @@ html * {
 /* ※注：このCSSは、班別のページ(～～squad.html)用です。トップページ(index.html)用は、"style.css"です。間違えないように気を付けてください。 */
 
 
-/*Google Fonts*/
+/*Google Fontsのフォント指定（Zen Kaku Gothic New, BIZ UDPGothic, Zen Old Mincho）*/
 .zen-kaku-gothic-new-light {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 300;
@@ -363,6 +363,7 @@ footer{
   }
 
 }
+
 
 
 
