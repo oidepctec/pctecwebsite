@@ -12,7 +12,7 @@ html * {
 /* ※注：このCSSは、トップページ(index.html)用です。班別のページ用は、"hey!.css"です。間違えないように気を付けてください。 */
 
 
-/*Google Fontsのフォント指定（BIZ UDPGothic, Zen Kaku Gothic New, Zen Old Mincho）*/
+/*Google Fontsのフォント指定（Zen Kaku Gothic New, BIZ UDPGothic, Zen Old Mincho）*/
 .zen-kaku-gothic-new-light {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 300;
