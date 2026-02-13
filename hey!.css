@@ -103,7 +103,7 @@ body {
   
 	margin:  0 0 0 0;
 	color: #fff;
-  background: linear-gradient(33deg, #1055c6, #109fc3);
+  background: linear-gradient(33deg, #0048bd, #109fc3);
 }
 
 /* ページ左上の「☰」の設定 */
@@ -352,6 +352,7 @@ footer{
   }
 
 }
+
 
 
 
