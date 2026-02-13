@@ -172,7 +172,7 @@ body {
   height: 200px;
   color: white;
   padding: 40px 0; /* 少し大きめに */
-  border-bottom: #fff solid;
+  border-bottom: #fff solid 1px;
 }
 
 .header h1 {
@@ -352,6 +352,7 @@ footer{
   }
 
 }
+
 
 
 
