@@ -9,7 +9,7 @@ html * {
 	box-sizing: border-box;
 }
 
-/* ※注：このCSSはトップページ用です。班別のページ用は、"hey!.css"です。間違えないように気を付けてください。 */
+/* ※注：このCSSは、トップページ(index.html)用です。班別のページ用は、"hey!.css"です。間違えないように気を付けてください。 */
 
 
 /*Google Fontsのフォント指定（BIZ UDPGothic, Zen Kaku Gothic New, Zen Old Mincho）*/
