@@ -326,9 +326,13 @@ footer{
   }
   
   h2 {
-	  font-size: 18px
+	  font-size: 18px;
   }
 
+  h6 {
+	  font-size: 18px;
+  }
+	
   /* 本文の文字も少し詰める */
   p {
     font-size: 16px;            /* 文字サイズ小さめ */
@@ -352,6 +356,7 @@ footer{
   }
 
 }
+
 
 
 
